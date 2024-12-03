@@ -2,7 +2,7 @@
 FROM node:18 
 
 #mettre le dossier de travail à /app
-WORKDIR /projet 
+WORKDIR /docker
 
 #copier le package.jsan et le package-lock.json
 COPY package*.json ./
