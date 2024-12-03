@@ -2,7 +2,7 @@
 docker_project
 
 #installation
-```
+````
 docker compose up -d #lance la container docker
 
 docker compose stop #stpper la contenainer docker 
@@ -12,6 +12,10 @@ docker compose down #stopper et clean le contenair
 docker compose restart 
 
 docker compose  ps # liste les images du container 
+
+docker compose exec nodejs bash
+
+````
 
 ## prerequistes 
 Docker
