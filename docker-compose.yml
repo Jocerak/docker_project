@@ -8,7 +8,7 @@ services:
     depends_on:
       - db
     volumes:
-      - .:/app
+      - .:/docker_project
     
   mailhog:
     image: mailhog/mailhog
